@@ -1,7 +1,7 @@
 package Canciones;
 
 public class Canciones {
-    static long codCancion;
+    long codCancion;
     String artista;
     String cancion;
 
@@ -12,7 +12,7 @@ public class Canciones {
         this.cancion = cancion;
     }
 
-    public static long getCodCancion(){
+    public long getCodCancion(){
         return codCancion;
     }
 
